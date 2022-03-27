@@ -23,8 +23,10 @@ function gotResults(error,results){
 
     if(results[0].label == "cat"){
         img.src = "Cat png.gif";
-    }else{
+    }else if(results[0].label == "dog"){
         img.src = "dog.gif";
+    }else{
+        img.src = "background noise.gif";
     }
 
     }
