@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Recognition</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>    <link rel="stylesheet" href="https://use.typekit.net/atl7sca.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Comic+Neue:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+<body style="background-color: rgb(224, 225, 226);">
+    <center>
+
+    <div id="heading"><h1>Sound Recognition</h1>
+    <p id="note">note : Play the sound of a dog barking or cat meowing to get the recognition.</p>
+    </div><br><br>
+
+    <p class="ac_so">Sound I Hear : <Span id="sound"></Span></p>
+    <p class="ac_so">Accuracy : <Span id="accuracy"></Span></p><br>
+
+    <button class="btn btn-outline-success" onclick="startClassifictaion()">Start Classifying</button><br><br>
+
+    <img src="" id="img" class="img-fluid">
+
+    
+    
+    </center>
+
+    <div class="copyright-footer" id="copyright">Developed By - Shashank</div>
+</body>
+<!--https://teachablemachine.withgoogle.com/models/oq0QjufCR/
+-->
+</html>
